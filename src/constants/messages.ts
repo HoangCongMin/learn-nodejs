@@ -1,0 +1,25 @@
+export const usersMessages={
+  validation_error:'validation errors',
+  name_is_required:'Name is required',
+  name_must_be_a_string:'Name must be a string',
+  name_length_must_be_from_1_to_100:'name length must be from 1 to 100',
+  email_already_exists:'email already exists',
+  email_is_required:'email is required',
+  email_is_invalid:'email is in valid',
+  password_is_required:'password ins required',
+  password_must_be_a_string:'password must be a string',
+  password_length_must_be_from_6_to_50:'password length must be from 6 to 50',
+  password_must_be_strong:'min length 6, min lowercase 1, min uppercase 1, min number 1, min symbols 1',
+  confirm_password_is_required:'confirm password ins required',
+  confirm_password_must_be_a_string:'confirm password must be a string',
+  confirm_password_length_must_be_from_6_to_50:'confirm password length must be from 6 to 50',
+  confirm_password_must_be_strong:'min length 6, min lowercase 1, min uppercase 1, min number 1, min symbols 1',
+  date_of_birth:"date of birth is to iso8601",
+  user_not_found:"user not found",
+  access_token_is_required:"access token is required",
+  access_token_invalid:"access token invalid",
+  refresh_token:"refresh token is required",
+  refresh_token_invalid:"refresh token invalid",
+  refresh_token_is_string:"refresh token is string"
+
+}
